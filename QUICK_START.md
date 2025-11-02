@@ -215,7 +215,7 @@ After 30 days, you should see:
 - Free GitHub Pages hosting
 
 **Your unique advantage:**
-- 31 years of field experience
+- 33 years of field experience
 - Modern technical coordination skills
 - Proven project management capabilities
 - Professional online presence
