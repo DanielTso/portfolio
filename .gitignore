@@ -1,0 +1,26 @@
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+
+# Personal/Sensitive Files
+*.env
+.env.local
+credentials.json
+
+# Build Files (if added later)
+dist/
+build/
+node_modules/
+
+# Backup Files
+backup/
+*.backup
