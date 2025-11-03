@@ -98,7 +98,7 @@ git push origin main
 1. Locate `<section id="skills">` in `index.html`
 2. Skills are organized in `.skill-category` divs by category
 3. Each skill is an `<li>` with FontAwesome check icon + text
-4. Maintain 6 categories: Project Management, Technical Coordination, Field Leadership, Safety & Compliance, Industry Expertise, Technical Skills
+4. Current categories: Project Management, Technical Coordination, Field Leadership, Safety & Compliance, Industry Expertise, Technical Skills, **AI Integration & Emerging Tech** (NEW - 2025)
 
 ### Adding New Projects
 1. Find `<section id="projects">` in `index.html`
@@ -116,6 +116,40 @@ git push origin main
 1. Navigation links in `index.html` under `<nav class="navbar">`
 2. Must match section IDs: `href="#about"` → `<section id="about">`
 3. Mobile menu handled by `js/main.js` - toggles `.active` class
+
+## Key Differentiators (Updated 2025)
+
+### "What I Bring to Your Team" Section
+Located in the About section after the stat cards, this highlights Daniel's unique value propositions:
+- Complete project lifecycle perspective (Trades → Design → Field → Management)
+- Crisis management & turnaround experience
+- **Modern technology integration including AI** (NEW)
+- Proven leadership at scale (110+ personnel, $60M+ projects)
+- Continuous learning mindset with AI training
+
+**Location**: `index.html` - `.what-i-bring` class within `<section id="about">`
+**Styling**: `css/styles.css` - "What I Bring Section" styles starting around line 533
+
+### AI Integration Focus (NEW - 2025)
+Daniel is actively integrating AI into construction workflows. This is a **major differentiator** and should be prominently featured:
+
+**AI Skills & Applications:**
+- AI-powered email and proposal writing
+- Automated RFI generation and management
+- AI document summarization and analysis
+- Agent AI development and deployment
+- Prompt engineering for construction workflows
+
+**Training Completed:**
+- AI Engineering & Integration
+- AI Agent Development
+- Prompt Engineering Certification
+
+**Where it appears:**
+- About section: "What I Bring" list item
+- Skills section: "AI Integration & Emerging Tech" category (7th skill category)
+- Education section: First 3 items in Certifications & Training
+- Resume (resume.html): Professional Summary, Skills, and Certifications
 
 ## Important Constraints
 

@@ -530,6 +530,57 @@ section:nth-child(even) {
   color: var(--text-light);
 }
 
+/* What I Bring Section */
+.what-i-bring {
+  margin-top: var(--space-10);
+  padding: var(--space-8);
+  background-color: var(--background-white);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--accent-color);
+  box-shadow: var(--shadow-md);
+}
+
+.bring-heading {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: var(--primary-color);
+  margin-bottom: var(--space-6);
+  text-align: center;
+}
+
+.bring-list {
+  list-style: none;
+}
+
+.bring-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+  padding: var(--space-4);
+  background-color: var(--background-light);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+}
+
+.bring-list li:hover {
+  background-color: var(--background-white);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(4px);
+}
+
+.bring-list li i {
+  font-size: var(--text-2xl);
+  color: var(--accent-color);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.bring-list li strong {
+  color: var(--primary-color);
+  display: inline;
+}
+
 /* ==================== EXPERIENCE SECTION ==================== */
 
 .experience {

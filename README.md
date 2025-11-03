@@ -8,13 +8,14 @@ Professional portfolio website showcasing construction project management expert
 
 ## 👤 About
 
-This portfolio website represents Daniel Tso's 33-year career in construction, highlighting the transition from field superintendent to project management with modern BIM coordination expertise.
+This portfolio website represents Daniel Tso's 33-year career in construction, highlighting the transition from field superintendent to project management with modern BIM coordination expertise and AI integration.
 
 **Professional Focus:**
 - Construction Project Management
 - Field Leadership & Superintendent Experience
 - BIM Coordination & Quality Assurance
 - Mission Critical & Heavy Industrial Projects
+- AI Integration in Construction Workflows (NEW - 2025)
 
 ## 🛠️ Technology Stack
 
