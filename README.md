@@ -4,11 +4,11 @@ Professional portfolio website showcasing construction project management expert
 
 ## 🌐 Live Site
 
-[View Live Portfolio](#) <!-- Add GitHub Pages URL after deployment -->
+[View Live Portfolio](https://danieltso.github.io/portfolio/)
 
 ## 👤 About
 
-This portfolio website represents Daniel Tso's 31-year career in construction, highlighting the transition from field superintendent to project management with modern BIM coordination expertise.
+This portfolio website represents Daniel Tso's 33-year career in construction, highlighting the transition from field superintendent to project management with modern BIM coordination expertise.
 
 **Professional Focus:**
 - Construction Project Management
