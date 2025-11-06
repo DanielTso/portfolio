@@ -174,6 +174,30 @@ Daniel is actively integrating AI into construction workflows. This is a **major
 - Company names and dates are already approved for public display
 - Professional references section includes real phone numbers - handle with care
 
+## Git Workflow
+
+### Branch Strategy
+- **`main` branch** = Production - Every commit to `main` automatically deploys to GitHub Pages
+- **No feature branches required** for this simple static site - commit directly to `main`
+- If working on major changes, optionally create a feature branch and merge via PR
+
+### Making Changes
+```bash
+# 1. Make your edits to HTML/CSS/JS files
+# 2. Test locally by opening index.html in browser
+# 3. Commit changes
+git add .
+git commit -m "Descriptive message about changes"
+
+# 4. Push to main (triggers auto-deployment)
+git push origin main
+```
+
+### Session Notes
+- Development decisions and changes are tracked in `.claude/session-notes/`
+- Session notes are committed to git for historical reference
+- They do not affect the live website - purely for development documentation
+
 ## GitHub Pages Deployment
 
 The site deploys automatically from the `main` branch to GitHub Pages. No special configuration needed.
@@ -185,6 +209,9 @@ The site deploys automatically from the `main` branch to GitHub Pages. No specia
 4. Ensure external links have `target="_blank" rel="noopener noreferrer"`
 5. Commit and push to `main` branch
 6. Wait 1-2 minutes for GitHub Pages to rebuild
+7. Visit live site to verify changes deployed correctly
+
+**Important**: Since every push to `main` goes live immediately, always test thoroughly before pushing!
 
 ## Browser Compatibility
 
